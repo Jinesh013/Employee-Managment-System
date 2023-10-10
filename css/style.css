@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:white;
+}
+/* gradient primary */
+.header {
+    background-color: rgba(215, 212, 212, 0.311);
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+form {
+    height: 430px;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.349);
+    padding: 20px 35px;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.login {
+    display: block;
+    margin-top: 45px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Showpassword{
+    /* margin-top: 20px; */
+    font-weight: 300;
+    font-size: 16px;
+}
+
+input[type=text],input[type=password] {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    resize: vertical;
+}
+input[type=submit] {
+    margin-top: 80px;
+    width: 100%;
+    background-color: calc();
+    color: #080710d0;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.col-25 {
+    float: left;
+    width: 25%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75 {
+      width: 100%;
+    }
+    input[type = submit]{
+        margin-top: 25px;
+    }
+    
+    form
+    {
+        height: 400px;
+        width: 250px;
+        /* margin-bottom: 500px; */
+    }
+
+  }
+::placeholder {
+    color: black;
+}
+
+button {
+    margin-top: 80px;
+    width: 100%;
+    background-color: calc();
+    color: #080710d0;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

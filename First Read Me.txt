@@ -1,0 +1,9 @@
+**Database Name: ems**
+
+
+// ***************************** Admin login  ****************************** //
+
+
+Username  :=  admin
+Password  :=  admin
+
